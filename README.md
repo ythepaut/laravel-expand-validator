@@ -9,7 +9,6 @@ Your submission :
 - Work on your Fork
 - Submit a pull request when you're done
 - For [Frontend](#frontend) and [Backend](#backend) exercises, you must publish the result on a Web Server
-- For [Mobile](#mobile) exercise, you must send us the .apk or iOS app so that we can install it on our phones
 
 ## Frontend
 
