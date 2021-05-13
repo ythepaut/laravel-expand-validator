@@ -1,10 +1,10 @@
 <?php
 
-namespace Api;
+namespace Api\Common;
 
 /**
  * Class Api
- * @package Api
+ * @package Api\Common
  */
 class Api {
 
@@ -34,5 +34,4 @@ class Api {
         header("Access-Control-Max-Age: 3600");
         header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
     }
-
 }
