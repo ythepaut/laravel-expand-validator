@@ -2,7 +2,7 @@
 
 use Api\Common\Api;
 use Api\Common\Autoloader;
-use Api\Requests\ExpandValidator;
+use Api\Requests\ExpandValidatorRequest;
 
 require_once("config.php");
 
@@ -12,7 +12,7 @@ Autoloader::register();
 $api = new Api();
 
 if ($_SERVER['REQUEST_URI'] === "/expand_validator") {
-    new ExpandValidator();
+    new ExpandValidatorRequest();
 } else {
     die("Invalid route. Instructions at https://github.com/ythepaut/recruitment");
 }
